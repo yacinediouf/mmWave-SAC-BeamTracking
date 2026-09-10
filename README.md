@@ -6,10 +6,10 @@ This repository provides the Python implementation for Soft Actor-Critic (SAC) b
 Install required packages using:
 ```bash
 pip install -r requirements.txt
+```
+## Execution
+- Train SAC Agent: python train.py
 
-Execution
-Train SAC Agent: python train.py
+- Evaluate Model: python evaluer_modele.py
 
-Evaluate Model: python evaluer_modele.py
-
-Reproduce Paper Figures: python generates_all_figure.py
+- Reproduce Paper Figures: python generates_all_figure.py
